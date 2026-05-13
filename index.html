@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joscelyn Vásquez - Product Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">JV</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li><a href="#projects" class="nav-link" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+                <li><a href="#about" class="nav-link" data-es="Sobre mí" data-en="About">Sobre mí</a></li>
+                <li><a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a></li>
+                <li class="language-toggle">
+                    <button id="lang-btn" class="lang-btn">EN</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-es="Joscelyn Vásquez" data-en="Joscelyn Vásquez">Joscelyn Vásquez</h1>
+            <p class="hero-subtitle" data-es="Product Designer | UX | Research | Conversational AI" data-en="Product Designer | UX | Research | Conversational AI">Product Designer | UX | Research | Conversational AI</p>
+            <p class="hero-description" data-es="Diseño productos digitales que resuelven problemas reales. Combino investigación, estrategia y diseño para conectar necesidades de usuario con objetivos de negocio. Actualmente, trabajo en diseño conversacional en Mibanco." data-en="I design digital products that solve real problems. I combine research, strategy and design to connect user needs with business objectives. Currently, I work on conversational design at Mibanco.">Diseño productos digitales que resuelven problemas reales. Combino investigación, estrategia y diseño para conectar necesidades de usuario con objetivos de negocio. Actualmente, trabajo en diseño conversacional en Mibanco.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary" data-es="Ponte en contacto" data-en="Get in touch">Ponte en contacto</a>
+                <a href="#projects" class="btn btn-secondary" data-es="Ver proyectos" data-en="View projects">Ver proyectos</a>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2 class="section-title" data-es="Proyectos" data-en="Projects">Proyectos</h2>
+            <p class="section-description" data-es="Una selección de proyectos recientes donde combiné investigación, estrategia y diseño." data-en="A selection of recent projects where I combined research, strategy and design.">Una selección de proyectos recientes donde combiné investigación, estrategia y diseño.</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: Mibanco por WhatsApp -->
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(135deg, #a8d5ba 0%, #d4e8d4 100%);"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Mibanco por WhatsApp</h3>
+                    <p class="project-subtitle">Designing banking as a conversation</p>
+                    <p class="project-description">Conversational design of a chatbot to offer financial services to microentrepreneurs through WhatsApp.</p>
+                    <div class="project-tags">
+                        <span class="tag">Finance</span>
+                        <span class="tag">Conversational Design</span>
+                    </div>
+                    <a href="project-mibanco-whatsapp.html" class="project-link">View project →</a>
+                </div>
+            </div>
+
+            <!-- Project 2: Mibanco Research -->
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(135deg, #e6c9e6 0%, #f0e0f0 100%);"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Mibanco</h3>
+                    <p class="project-subtitle">Understanding adoption barriers in digital customer service for traditional clients</p>
+                    <p class="project-description">Qualitative and quantitative research to understand what prevents traditional customers from adopting digital services.</p>
+                    <div class="project-tags">
+                        <span class="tag">User Research</span>
+                        <span class="tag">Journey Mapping</span>
+                    </div>
+                    <a href="project-mibanco-research.html" class="project-link">View project →</a>
+                </div>
+            </div>
+
+            <!-- Project 3: Dilvant -->
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(135deg, #ffd9b3 0%, #ffe6cc 100%);"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Dilvant</h3>
+                    <p class="project-subtitle">Corporate website redesign to improve content clarity and navigation</p>
+                    <p class="project-description">Complete redesign of brand identity and corporate website to improve clarity in service communication.</p>
+                    <div class="project-tags">
+                        <span class="tag">Branding</span>
+                        <span class="tag">UI Design</span>
+                    </div>
+                    <a href="project-dilvant.html" class="project-link">View project →</a>
+                </div>
+            </div>
+
+            <!-- Project 4: Mibanco Simulator -->
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(135deg, #c9d9e6 0%, #e0ebf0 100%);"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Mibanco</h3>
+                    <p class="project-subtitle">Design and validation of a variable compensation simulator: from execution to discovery</p>
+                    <p class="project-description">Migration and redesign of Excel tool to web platform with usability testing in real context.</p>
+                    <div class="project-tags">
+                        <span class="tag">Usability Testing</span>
+                        <span class="tag">UI Design</span>
+                    </div>
+                    <a href="project-mibanco-simulator.html" class="project-link">View project →</a>
+                </div>
+            </div>
+
+            <!-- Project 5: Dyloo -->
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(135deg, #f0d4b8 0%, #f5e6d3 100%);"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Dyloo</h3>
+                    <p class="project-subtitle">Website redesign to communicate clearly and effectively</p>
+                    <p class="project-description">Landing page redesign considering usability heuristics, information architecture and animations.</p>
+                    <div class="project-tags">
+                        <span class="tag">UI Design</span>
+                        <span class="tag">Motion Design</span>
+                    </div>
+                    <a href="project-dyloo.html" class="project-link">View project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="profile.png" alt="Joscelyn Vásquez">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">About me</h2>
+                <p class="about-description">I'm a UX Designer with 4 years of experience designing digital products in finance, telecommunications, and technology sectors. My approach combines research, design and strategy to create solutions that connect user needs with business objectives.</p>
+                
+                <div class="skills-section">
+                    <h3 class="skills-title">Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>UX/UI Design</h4>
+                            <p>Conversational design, wireframing, prototyping, usability testing</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Research</h4>
+                            <p>User research, interviews, surveys, journey mapping</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <p>Figma, Miro, Excel, Notion, ChatGPT, Copilot</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <p>Spanish (Native) | English C2 | Portuguese (Basic)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get in touch</h2>
+            <p class="contact-description">Do you have a project in mind or want to talk? I'd love to hear from you.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:scelyn.jo@gmail.com" class="contact-link">
+                    <span class="icon">✉</span>
+                    <span class="label">scelyn.jo@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/joscelyn-vasquez/" target="_blank" class="contact-link">
+                    <span class="icon">in</span>
+                    <span class="label">LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">Designed and developed by Joscelyn Vásquez © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
